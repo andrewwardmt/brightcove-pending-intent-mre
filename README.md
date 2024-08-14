@@ -1,7 +1,7 @@
 # Brightcove AppWidget Pending Intent Minimal Reproducible Example
 
 Updating Brightcove broke opening the app from an app widget with TaskStackBuilder.
-Opening the app shows an exact black task.
+Opening the app shows an extra black task.
 
 ## Steps
 
