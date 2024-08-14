@@ -10,7 +10,7 @@ Opening the app shows an extra black task.
 * Long tap -> widgets
 * Place Brightcove Repro > Brightcove Repro widget
 * Close all instances of the app in Recents
-* Tap "Tap me" button.
+* Tap "Tap me" button on the widget
 * Look at recents. There will be two Brightcove Repro tasks - first black, second with correct activity
 
 Downgrading to 8.1.1 or removing the MainActivity from the TaskStackBuilder both 'fix' this issue.
