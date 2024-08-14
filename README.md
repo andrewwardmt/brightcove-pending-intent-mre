@@ -8,7 +8,7 @@ Opening the app shows an extra black task.
 Tested on:
 
 - Pixel 7 Pro, Android 14
-- Emulator, Android 13
+- Emulator, Android 13, x86_64
 
 ## Steps
 
