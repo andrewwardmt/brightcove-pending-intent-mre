@@ -3,6 +3,13 @@
 Updating Brightcove broke opening the app from an app widget with TaskStackBuilder.
 Opening the app shows an extra black task.
 
+## Devices
+
+Tested on:
+
+- Pixel 7 Pro, Android 14
+- Emulator, Android 13
+
 ## Steps
 
 * Install app
