@@ -1,6 +1,8 @@
-plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.jetbrains.kotlin.android)
+apply plugin: 'com.android.application'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+repositories {
+    maven { url 'https://repo.brightcove.com/releases' }
 }
 
 android {
@@ -45,6 +47,6 @@ dependencies {
     androidTestImplementation libs.androidx.junit
     androidTestImplementation libs.androidx.espresso.core
 
-//    implementation 'com.google.ads.interactivemedia.v3:interactivemedia:3.33.0'
-//    implementation "com.brightcove.player:android-ima-plugin:9.2.0"
+    implementation 'com.google.ads.interactivemedia.v3:interactivemedia:3.33.0'
+    implementation "com.brightcove.player:android-ima-plugin:9.2.0"
 }
